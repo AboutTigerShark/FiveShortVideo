@@ -1,0 +1,8 @@
+com\wb\videodao\CommentsMapper.class
+com\wb\videodao\UsersLikeVideosMapper.class
+com\wb\videodao\BgmMapper.class
+com\wb\videodao\SearchRecordsMapper.class
+com\wb\videodao\UsersFansMapper.class
+com\wb\videodao\UsersReportMapper.class
+com\wb\videodao\VideosMapper.class
+com\wb\videodao\UsersMapper.class

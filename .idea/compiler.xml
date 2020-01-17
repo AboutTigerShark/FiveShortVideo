@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="video-dao" />
+        <module name="video-service" />
+        <module name="video-common" />
+        <module name="video-mini-api" />
+        <module name="video-pojo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="1.8" />
+      <module name="FiveShortVideo" target="1.8" />
+      <module name="pojo" target="1.8" />
+      <module name="video-common" target="1.8" />
+      <module name="video-dao" target="1.8" />
+      <module name="video-mini-api" target="1.8" />
+      <module name="video-pojo" target="1.8" />
+      <module name="video-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FiveShortVideo" options="-parameters" />
+      <module name="dao" options="-parameters" />
+      <module name="pojo" options="-parameters" />
+      <module name="video-common" options="-parameters" />
+      <module name="video-dao" options="-parameters" />
+      <module name="video-mini-api" options="-parameters" />
+      <module name="video-pojo" options="-parameters" />
+      <module name="video-service" options="-parameters" />
+    </option>
+  </component>
+</project>
